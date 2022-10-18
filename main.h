@@ -35,6 +35,7 @@ int unsigned_integer(va_list);
 int print_octal(va_list list);
 int print_hex(va_list list);
 int print_heX(va_list list);
+int print_address(va_list list);
 
 /*additional functions*/
 unsigned int base_len(unsigned int, int);
