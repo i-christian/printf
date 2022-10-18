@@ -23,6 +23,7 @@ int _printf(const char *format, ...)
 		{"u", unsigned_integer},
 		{"o", print_octal},
 		{"x", print_hex},
+		{'p', print_address},
 		{"X", print_heX},
 		{NULL, NULL}
 	};
