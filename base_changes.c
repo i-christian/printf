@@ -1,5 +1,6 @@
 #include "main.h"
 #include "stdio.h"
+int hex_check(int, char);
 
 /**
  *print_binary - Converts a number from base 10 to binary
@@ -16,7 +17,7 @@ int print_binary(va_list list)
 
 	num = va_arg(list, unsigned int);
 	if (num == 0)
-		return (_write_char('0'));
+		return (write_char('0'));
 	if (num < 1)
 		return (-1);
 	len = base_len(num, 2);
