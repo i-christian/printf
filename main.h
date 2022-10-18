@@ -3,6 +3,8 @@
 
 #include <unistd.h>
 #include <stdarg.h>
+#include <stdlib.h>
+
 /**
  * struct specifiers - defines a structure for symbols and functions
  *
