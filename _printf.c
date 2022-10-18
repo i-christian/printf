@@ -18,6 +18,12 @@ int _printf(const char *format, ...)
 		{"i", print_integer},
 		{"u", unsigned_integer},
 		{"b", print_binary},
+		{"r", print_reversed},
+		{"R", rot13},
+		{"u", unsigned_integer},
+		{"o", print_octal},
+		{"x", print_hex},
+		{"X", print_heX},
 		{NULL, NULL}
 	};
 	/*accepted variable arguments*/
